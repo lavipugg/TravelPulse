@@ -4,6 +4,7 @@ import { TravelExpense, TripParticipant } from '../types';
 interface ExpenseListProps {
   expenses: TravelExpense[];
   participants: TripParticipant[];
+  onSettle: (from: string, to: string, amount: number) => void;
 }
 
 export const ExpenseList: React.FC<ExpenseListProps> = ({ expenses, participants }) => {

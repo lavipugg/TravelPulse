@@ -1,0 +1,17 @@
+{
+  "appId": "com.travelpulse.planner",
+  "appName": "TravelPulse",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorCookies": {
+      "enabled": true
+    },
+    "Geolocation": {
+      "permissions": ["location"]
+    }
+  }
+}
